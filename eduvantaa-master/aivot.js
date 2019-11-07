@@ -7,11 +7,15 @@ function laatikkoFunktio(boxNumber){
         document.getElementById("laatikko1").style.lineHeight = "50px";
     }
     else if (boxNumber == 2){
-        document.getElementById("laatikko2").innerHTML = "<>
+        document.getElementById("laatikko2").innerHTML = "<table>";
 
     }
-    else{
+    else if (boxNumber == 3){
         //toiminnallisuus puuttuu!
+        document.getElementById("laatikko2").innerHTML = "<img>";
+    }
+    else {
+        document.
     }
     
 }
